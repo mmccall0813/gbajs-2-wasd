@@ -1,4 +1,4 @@
-gbajs2 -- Community Fork
+gbajs2 -- Community Fork -- Fork For WASD Movement
 ======
 
 gbajs2 is a Game Boy Advance emulator written in Javascript from scratch using HTML5 technologies like Canvas and Web Audio. 
