@@ -8,6 +8,7 @@ class GameBoyAdvanceKeypad {
 		this.KEYCODE_SELECT = 220;
 		this.KEYCODE_A = 69;
 		this.KEYCODE_B = 81;
+		this.KEYCODE_ALT_B = 16;
 		this.KEYCODE_L = 90;
 		this.KEYCODE_R = 88;
 
@@ -82,6 +83,9 @@ class GameBoyAdvanceKeypad {
 				break;
 			case this.KEYCODE_LEFT:
 				toggle = this.LEFT;
+				break;
+			case this.KEYCODE_ALT_B:
+				toggle = this.B;
 				break;
 			default:
 				return;
